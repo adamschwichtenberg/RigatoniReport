@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Rigatoni Report · Order up</title>
+<meta name="description" content="The Rigatoni Report: what's new in Microsoft 365 Copilot, agents and security for AI, served monthly by your Microsoft team.">
+<meta property="og:title" content="The Rigatoni Report">
+<meta property="og:description" content="Copilot, agents and security for AI, served monthly.">
+<meta property="og:image" content="assets/img/og-image.jpg">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#1a0b04">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=Caveat:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="preload" as="image" href="assets/img/kitchen-static.webp">
+<link rel="stylesheet" href="assets/landing.css">
+</head>
+<body>
+<a class="skip-link" href="#rail">Skip to the issues</a>
+
+<main id="app" class="is-loading">
+  <div id="scene">
+    <div id="stage">
+      <img id="poster" src="assets/img/kitchen-static.webp" width="1680" height="944"
+           alt="Rigatoni the Newfoundland, in a chef's hat and red neckerchief, stirring sauce at a copper pot by a wood-fired oven in a warm trattoria kitchen.">
+      <canvas id="gl" aria-hidden="true"></canvas>
+      <div id="shade" aria-hidden="true"></div>
+
+      <nav id="rail" aria-label="Issues on the ticket rail"></nav>
+
+
+
+      <section id="card" aria-live="polite">
+        <img class="c-cover" src="" alt="">
+        <div class="c-body">
+          <p class="c-kicker">On the pass</p>
+          <h1 class="c-title"></h1>
+          <p class="c-edition"></p>
+          <ul class="c-list"></ul>
+          <div class="c-actions">
+            <button class="c-nav c-prev" type="button" aria-label="Older issue">&#8249;</button>
+            <a class="c-open" href="#">Open this issue <span aria-hidden="true">&rarr;</span></a>
+            <button class="c-nav c-next" type="button" aria-label="Newer issue">&#8250;</button>
+          </div>
+        </div>
+      </section>
+
+      <header id="brand">
+        <p class="b-mark">The Rigatoni Report</p>
+        <p class="b-tag">Copilot, agents and security for AI, served monthly.</p>
+      </header>
+
+      <div id="ui">
+        <button id="sound" type="button" aria-pressed="false"><span class="s-icon" aria-hidden="true"></span><span class="s-label">Sound off</span></button>
+      </div>
+    </div>
+  </div>
+  <div id="below"></div>
+</main>
+
+<noscript>
+  <div class="noscript">
+    <p class="b-mark">The Rigatoni Report</p>
+    <ul>
+      <li><a href="issues/2026-11/">November 2026 · Maple &amp; flannel edition</a></li>
+      <li><a href="issues/2026-10/">October 2026 · Halloween edition</a></li>
+      <li><a href="issues/2026-09/">September 2026 · Back-to-school edition</a></li>
+    </ul>
+  </div>
+</noscript>
+
+<!-- ISSUE LIST: oldest first, newest last. To publish a month, add the issue folder and one entry here. -->
+<script type="application/json" id="issues-data">
+{
+  "issues": [
+    {
+      "id": "2026-09",
+      "month": "September",
+      "year": 2026,
+      "edition": "Back-to-school edition",
+      "href": "issues/2026-09/",
+      "cover": "assets/img/cover-2026-09.webp",
+      "ticket": "assets/img/ticket-2026-09.webp",
+      "headlines": [
+        "Cowork and Chat do more, and show credit use",
+        "Agents that build, and agents you can govern",
+        "Agent 365: one place to manage agents"
+      ]
+    },
+    {
+      "id": "2026-10",
+      "month": "October",
+      "year": 2026,
+      "edition": "Halloween edition",
+      "href": "issues/2026-10/",
+      "cover": "assets/img/cover-2026-10.webp",
+      "ticket": "assets/img/ticket-2026-10.webp",
+      "headlines": [
+        "One Copilot for chat, work and apps",
+        "Build apps and agents with guardrails",
+        "Frontier Transformation Days – Calgary"
+      ]
+    },
+    {
+      "id": "2026-11",
+      "month": "November",
+      "year": 2026,
+      "edition": "Maple & flannel edition",
+      "href": "issues/2026-11/",
+      "cover": "assets/img/cover-2026-11.webp",
+      "ticket": "assets/img/ticket-2026-11.webp",
+      "headlines": [
+        "Cowork becomes a place to hand off real work",
+        "Agents get accounts, memory and budgets",
+        "Microsoft Frontier Tour – Toronto"
+      ]
+    }
+  ]
+}
+</script>
+<script src="assets/landing.js" defer></script>
+</body>
+</html>
